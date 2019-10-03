@@ -28,4 +28,7 @@ Done! kubectl is now configured to use "minikube"
 
 * deployment.apps/hello-minikube created
 > `kubectl expose deployment hello-minikube --type=NodePort`
-
+* expose via node port
+> `minikube service hello-minikube --url`
+* get url
+* goto url can add / and path 
