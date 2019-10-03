@@ -27,4 +27,5 @@ Done! kubectl is now configured to use "minikube"
 > `kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080`
 
 * deployment.apps/hello-minikube created
+> `kubectl expose deployment hello-minikube --type=NodePort`
 
