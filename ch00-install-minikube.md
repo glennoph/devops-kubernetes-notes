@@ -11,3 +11,12 @@ Done! kubectl is now configured to use "minikube"
 
 ## incr memory 
 > `minikube config set memory 4096`
+
+# install kubectl
+## option 1
+* goto https://kubernetes.io/docs/tasks/tools/install-kubectl/
+## option 2 snap
+> `sudo snap install kubectl --classic`
+## check version
+> `kubectl version`
+
