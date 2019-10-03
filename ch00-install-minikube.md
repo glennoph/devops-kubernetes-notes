@@ -20,4 +20,5 @@ Done! kubectl is now configured to use "minikube"
 ## check version
 > `kubectl version`
 
-* version Client Version: version.Info{Major:"1", Minor:"16", ...
+* version 
+`Client Version: version.Info{Major:"1", Minor:"16", ...`
