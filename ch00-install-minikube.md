@@ -8,3 +8,6 @@
 * >`minikube start`
 
 Done! kubectl is now configured to use "minikube"
+
+## incr memory 
+> `minikube config set memory 4096`
