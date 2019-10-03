@@ -22,3 +22,9 @@ Done! kubectl is now configured to use "minikube"
 
 * version 
 `Client Version: version.Info{Major:"1", Minor:"16", ...`
+
+# run hello world
+> `kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080`
+
+* deployment.apps/hello-minikube created
+
